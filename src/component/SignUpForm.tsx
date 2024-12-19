@@ -33,7 +33,7 @@ const SignUpForm = () => {
     };
 
     try {
-      await axios.post("http://143.244.183.2:8090/api/auth/sign-up", payload);
+      await axios.post("http://143.244.183.2:8099/api/auth/sign-up", payload);
       console.log("User signed up successfully!");
       window.location.href = "/signin";
     } catch (error) {
