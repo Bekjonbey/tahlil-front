@@ -130,7 +130,7 @@ const CalculatePage: React.FC = () => {
       };
 
       const response = await axios.post(
-        "http://localhost:8090/api/problem/create",
+        "http://143.244.183.2:8099/api/problem/create",
         payload,
         {
           headers: {

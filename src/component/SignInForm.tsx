@@ -36,7 +36,7 @@ const SignInForm: React.FC = () => {
     try {
       // Send the POST request to the backend API for sign in
       const response = await axios.post(
-        "http://localhost:8090/api/auth/sign-in",
+        "http://143.244.183.2:8099/api/auth/sign-in",
         payload
       );
       console.log("User signed in successfully!");
